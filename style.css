@@ -1,0 +1,134 @@
+
+html {
+  box-sizing: border-box;
+}
+:before, :after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+display:grid;
+grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+grid-template-rows: 10vh 45vh auto;
+background-color: antiquewhite;
+}
+
+#nav {
+background-color: rgb(46, 48, 50);
+grid-column: 2 / 6;
+grid-row: 1 /2;
+font-size: 30px;
+text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ justify-content: space-around;
+  background-color: rgb(186, 171, 158);
+    color: rgb(50, 50, 50);
+    font-family: Helvetica, arial, sans-serif;
+}
+
+#storyL {
+background-color: rgb(216, 182, 153);
+grid-column: 1 / 4;
+grid-row: 2 / 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto/circles.jpg);
+    background-repeat: no-repeat;
+       background-size: 100%;
+       background-position: 80%;
+}
+
+#storyR {
+background-color: rgb(239, 69, 12);
+grid-column: 4 / 7;
+grid-row: 2 / 3;
+ display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto/music\ is\ good.jpeg);
+    background-size: 65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 48;
+}
+
+
+#article1 {
+background-color: rgb(242, 242, 237);
+grid-column: 2 / 3;
+grid-row: 3 / 4;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto/Assinatura_mac_miller_png\ copy.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+}
+
+#artilcle2 {
+background-color: rgb(0, 68, 255);
+grid-column: 3 / 4;
+grid-row: 3 / 4;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto/Mac_Miller_-_Balloonerism.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+}
+
+#article3 {
+background-color: rgb(247, 0, 255);
+grid-column: 4 / 5;
+grid-row: 3 / 4;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto/art\ mac.jpeg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+}
+
+#latest {
+background-color: rgb(0, 0, 0);
+grid-column: 5 / 6;
+grid-row: 3 / 4;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto/PosterA.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

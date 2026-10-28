@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Helvetica, arial, sans-serif;
+    background-color: rgb(94, 105, 92);
+    background-image: url("test images/Malcolm.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(186, 171, 158);
+    color: rgb(50, 50, 50);
+    padding: 15px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 200px 200px;
+    gap: 1em;
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: var(--black-color);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica, arial, sans-serif;
+    color: rgb(253, 253, 252);
+}
+
+p {
+color: rgb(249, 245, 245);
+font-size: small;
+text-align: left;
+padding: 50px;
+width: 580px;
+}
+
+
+#about {
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+text-align: center;
+font-size: 20px;
+}
+
+#plaatjes {
+background-color: rgb(58, 42, 4);
+#plaatjes img {
+    transition: transform 0.3s ease;
+}
+
+#plaatjes img:hover {
+    transform: scale(1.5);
+}
+
+}
+
+#testje{
+color: rgb(249, 245, 245);
+font-size: small;
+text-align: right;
+padding: 20px;
+width: 300px;
+
+}
+
